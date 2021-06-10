@@ -26,6 +26,11 @@
 ## :building_construction: Install
 
 ``` bash
+#Clone repository
+git clone https://github.com/arielroque/tmux-pro.git
+
+cd tmux-pro
+
 #Allow execute instalation script
 chmod +x ./install.sh
 
