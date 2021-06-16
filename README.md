@@ -75,8 +75,30 @@ We use color variables to change the text color and customize the background. To
 
 #### Status Bar
 
+![image](https://arcolinux.com/wp-content/uploads/2020/02/tmux-status.png)
+
 - ##### Status Left
+
+to change the left status, go to the [status-left]() section
+
+```bash
+# status left
+set -g status-left "#[bg=$foreground_color]#[fg=$background_color]#{?client_prefix,#[bg=$alert_color],} ☺ "
+...
+...
+```
+
+
 - ##### Status Right
+
+to change the left status, go to the [status-right] section
+
+```bash
+# status right
+set-option -g status-right "#[fg=$colour_secondary_text,bg=$weather_bg_color] #{weather} "
+...
+...
+```
 
 #### Plugins
 
@@ -90,10 +112,8 @@ In the configuration file, you will have a section called [plugins]() like this 
 # enable Tmux Pligin Manager plugins
 set -g @plugin 'tmux-plugins/tpm'
 set -g @plugin 'tmux-plugins/tmux-sensible'
-
 ...
 ...
-
 ```
 
 
