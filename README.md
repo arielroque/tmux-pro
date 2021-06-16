@@ -19,7 +19,7 @@
 
 - #### Easy to modify
    
-   Didn't like a plugin or a color used by default? No problem, Tmux Pro was written so that any modification can be done quickly and easily. To see more how to modify your Tmux Pro, go here
+   Didn't like a plugin or a color used by default? No problem, Tmux Pro was written so that any modification can be done quickly and easily. To see more how to modify your Tmux Pro, go here [customization](#customization)
 
 
 
@@ -39,6 +39,8 @@ sudo ./install.sh
 ```
 
 ## Keys
+
+## Customization
 
 ## :confused: Uninstall
 
