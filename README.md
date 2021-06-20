@@ -11,7 +11,7 @@
 
 - ### No hassle to use
 
-  Tmux Pro does not use any dependencies other than [Tmux Plugin Manager]() use plugins and offers modifications. This makes it easier to use and decreases incompatibilities that may arise.
+  Tmux Pro does not use any dependencies other than [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm) use plugins and offers modifications. This makes it easier to use and decreases incompatibilities that may arise.
 
 - #### Comes standard with plugins that increase your productivity
 
