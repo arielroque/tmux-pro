@@ -39,6 +39,24 @@ sudo ./install.sh
 
 ## :pager: Usage
 
+### :computer_mouse: Mouse Actions
+
+Click your ```right mouse button``` to show quick actions on your tmux. Some of these actions are:
+
+- Create Vertical Split
+- Create Horizontal Slit
+- Zoom Panel
+- Kill Panel
+
+
+![mouse-feature](assets/mouse-feature.gif)
+
+### :page_facing_up: Tree Directory
+
+To open the directory tree on your tmux just use ```prefix + Tab```
+
+![sidebar-feature](assets/sidebar-feature.gif)
+
 ## :paintbrush: Customization
 
 We know that customizing Tmux your way is important, so let's show you how easy it is with Tmux Pro
