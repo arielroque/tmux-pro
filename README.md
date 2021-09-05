@@ -1,10 +1,15 @@
 # Tmux Pro
 
+Need a custom Tmux? We have an amazing version to help you
+
+
 ## :bookmark: Requirements
 
-- [Tmux](https://github.com/tmux/tmux) > 3.0
+- [Tmux](https://github.com/tmux/tmux) >= 3.0
 
-## :clapper: Demo
+## :clapper: Screenhost
+
+![screeshot](assets/tmux-pro-screenshot.png)
 
 
 ## :question: Why Tmux Pro?
@@ -73,7 +78,7 @@ vim ~/.tmux.config
 
 #### Color Theme
 
-In the configuration file, you will have a section called [color theme]() like this one here
+In the configuration file, you will have a section called [color theme](https://github.com/arielroque/tmux-pro/blob/main/tmux.conf#L7) like this one here
 
 ```bash
 ######################
@@ -97,7 +102,7 @@ We use color variables to change the text color and customize the background. To
 
 - ##### Status Left
 
-to change the left status, go to the [status-left]() section
+to change the left status, go to the [status-left](https://github.com/arielroque/tmux-pro/blob/main/tmux.conf#L80) section
 
 ```bash
 # status left
@@ -109,7 +114,7 @@ set -g status-left "#[bg=$foreground_color]#[fg=$background_color]#{?client_pref
 
 - ##### Status Right
 
-to change the left status, go to the [status-right] section
+to change the left status, go to the [status-right](https://github.com/arielroque/tmux-pro/blob/main/tmux.conf#L91) section
 
 ```bash
 # status right
@@ -120,7 +125,7 @@ set-option -g status-right "#[fg=$colour_secondary_text,bg=$weather_bg_color] #{
 
 #### Plugins
 
-In the configuration file, you will have a section called [plugins]() like this one here
+In the configuration file, you will have a section called [plugins](https://github.com/arielroque/tmux-pro/blob/main/tmux.conf#L39) like this one here
 
 ```
 ######################
@@ -154,5 +159,8 @@ Pull request are also welcome , please read  [contributing](/CONTRIBUTING.md)  f
 -   Check  [issue templates](https://github.com/arielroque/tmux-pro/issues)  for the suggested issue formats
 
 ## :space_invader: Troubleshooting
+
+### Some features are not working right
+Check your tmux version. In order for Tmux pro to work properly we recommend Tmux >= 3.0 version. To see your Tmux version use ```tmux -Version```
 
 
