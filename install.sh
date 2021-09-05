@@ -1,6 +1,12 @@
 #!/bin/bash
 
-if [ -e ~/.tmux ];then 
+is_tmux_installed=$(which tmux)
+
+if [ ! -z $is_tmux_installed ];then
+
+    #create tmux.conf
+    tmux source-file ~/.tmux.conf
+
     # install latest version from Tmux Plugin Manager (TMP)
     git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
@@ -18,8 +24,7 @@ if [ -e ~/.tmux ];then
     echo ""
 
 else
-    echo -e "\e[31m--> Install Tmux(3.0+) first before use Tmux-pro\e[0m"
+    echo -e "\e[31m--> Install Tmux (>= 3.0) before use Tmux-pro\e[0m"
     echo ""
-
 fi
 
