@@ -7,7 +7,7 @@ Need a custom Tmux? We have an amazing version to help you
 
 - [Tmux](https://github.com/tmux/tmux) >= 3.0
 
-## :clapper: Screenhost
+## :camera: Screenhost
 
 ![screeshot](assets/tmux-pro-screenshot.png)
 
@@ -21,6 +21,10 @@ Need a custom Tmux? We have an amazing version to help you
 - #### Comes standard with plugins that increase your productivity
 
   Tmux comes with the following plugins:
+  - [Tmux better mouse mode](https://github.com/NHDaly/tmux-better-mouse-mode)
+  - [Tmux sidebar](https://github.com/tmux-plugins/tmux-sidebar)
+  - [Tmux weather](https://github.com/xamut/tmux-weather)
+  - and others...
 
 - #### Easy to modify
    
