@@ -16,7 +16,7 @@ Need a custom Tmux? We have an amazing version to help you
 
 - ### No hassle to use
 
-  Tmux Pro does not use any dependencies other than [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm) use plugins and offers modifications. This makes it easier to use and decreases incompatibilities that may arise.
+  Tmux Pro uses [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm) to install plugins and offers modifications. This makes it easier to use and decreases incompatibilities that may arise.
 
 - #### Comes standard with plugins that increase your productivity
 
@@ -143,8 +143,6 @@ set -g @plugin 'tmux-plugins/tmux-sensible'
 ...
 ```
 
-
-
 ## :confused: Uninstall
 
 ``` bash
@@ -165,6 +163,8 @@ Pull request are also welcome , please read  [contributing](/CONTRIBUTING.md)  f
 ## :space_invader: Troubleshooting
 
 ### Some features are not working right
-Check your tmux version. In order for Tmux pro to work properly we recommend Tmux >= 3.0 version. To see your Tmux version use ```tmux -Version```
+Check your tmux version. In order for Tmux Pro to work properly we recommend Tmux >= 3.0 version. To see your Tmux version use ```tmux -Version```
 
+## :clap: Thanks 
+ - Thanks to [@Benardi](https://github.com/Benardi) for introducing the fantastic world of customizations on Tmux 
 
